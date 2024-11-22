@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 10%; 
+}
+
+.wrapper {
+    background-color: #cccccc;
+    width: 100%;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+/*Шапка*/
+
+header {
+    padding: 25px 0;
+}
+
+header nav {
+    float: right;
+    width: 40%;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+header nav ul span {
+    color: #2a2a2a;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li a {
+    color: #2a2a2a;
+}
+
+header nav ul li a:hover {
+    background: #dc7000;
+    padding: 9px 17px;
+    border-radius: 5px;
+    transition: all 500ms ease;
+}
+
+/*header nav ul li.active::after {
+    background: #dc7000;
+    padding: 9px 17px;
+    border-radius: 5px;
+}*/
+
+/*Текст инфо*/
+
+.advantages {
+    padding-bottom: 400px;
+}
+
+.info {
+    padding-top: 250px;
+    color: black;
+    width: 1000px;
+    margin: 0 200px;
+}
+
+.info h2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.info p {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+/*Каталог*/
+
+.catalog {
+    padding: 25px 0;
+}
+
+.catalog nav {
+    float: right;
+    width: 40%;
+}
+
+.catalog nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.catalog nav ul span {
+    color: #2a2a2a;
+}
+
+.catalog nav ul li {
+    display: inline-block;
+}
+
+.catalog nav ul li a {
+    color: #2a2a2a;
+}
+
+.catalog nav ul li a:hover {
+    background: #dc7000;
+    padding: 9px 17px;
+    border-radius: 5px;
+    transition: all 500ms ease;
+}
+
+.catalog h3 {
+    font-weight: 600;
+    font-size: 31px;
+    color: black;
+    margin: 30px 0;
+}
+
+.catalog .catalog--blocks {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 50px;
+    width: 100%;
+    padding: 50px 0;
+}
+
+.catalog .catalog--blocks .block {
+    background-color: #cccccc;
+    width: 370px;
+    height: 368px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.catalog--blocks .block h2 {
+    color: black;
+}
+
+.catalog > a {
+    color: white;
+    display: flex;
+    text-align: center;
+    background-color: #333333;
+    border-radius: 5px;
+    padding: 10px;
+    display: block;
+    transition: all 500ms ease;
+    width: 150px;
+    margin: 0 auto;
+}
+
+.catalog > a:hover {
+    transform: scale(1.1);
+}
+
+/*О нас*/
+
+.wrapper--about--us {
+    background-color: #f6f6f6;
+}
+
+.about--us {
+    padding: 100px 0;
+    color: black;
+}
+
+.about--us > h3 {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.about--us > p {
+    width: 500px;
+    padding: 50px 0;
+    font-weight: 500;
+}
+
+.advantages {
+    column-gap: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    align-items: center;
+}
+
+.advantages .advantages--blocks img {
+    width: 40px;
+    height: 40px;
+}
+
+.advantages img {
+    max-width: 100%;
+}
+
+.about--us--block .block {
+    float: right;
+    background-color: #cccccc;
+    width: 436px;
+    height: 465px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Контакты*/
+
+.contacts {
+    padding-bottom: 200px;
+}
+
+.contacts--info {
+    color: black;
+}
+
+.contacts--info > h2 {
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.contacts--info .contacts--info--blocks {
+    padding-top: 50px;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.contacts--info .contacts--info--blocks p {
+    width: 500px;
+    font-weight: 500;
+}
